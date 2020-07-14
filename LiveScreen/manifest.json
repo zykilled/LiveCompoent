@@ -1,0 +1,22 @@
+{
+  "name": "Cr直播录制",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Cr系统直播录制Tab页",
+  "background": {
+    "page": "background/background.html"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["code/EventCode.js", "content_script/content_script.js"],
+    "run_at": "document_start"
+  }],
+  "permissions": [
+    "tabs",
+    "desktopCapture",
+    "tabCapture",
+    "activeTab",
+    "<all_urls>",
+    "downloads"
+  ]
+}

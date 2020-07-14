@@ -1,0 +1,2 @@
+直播录制插件
+录制当前tab页面，并将blob数据上传给CrLiveComponent组件

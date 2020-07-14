@@ -1,0 +1,7 @@
+uploadName=$1
+if [ "uploadName" != "" ]
+then
+    scp  -r ../LiveScreen/$uploadName root@139.9.234.168:/home/liveComponent/LiveScreen/$uploadName
+else
+    scp -r ../LiveScreen/ root@139.9.234.168:/home/liveComponent/
+fi

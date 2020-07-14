@@ -1,0 +1,7 @@
+uploadName=$1
+if [ "uploadName" != "" ]
+then
+    scp -P 8087 -r ../LiveScreen/$uploadName srmeeting@222.180.221.238:/home/srmeeting/liveComponent/LiveScreen/$uploadName
+else
+    scp -P 8087 -r ../LiveScreen/ root@139.9.234.168:/home/srmeeting/liveComponent/
+fi
