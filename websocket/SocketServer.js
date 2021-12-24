@@ -20,6 +20,7 @@ class SocketServer {
     stop(id){
 
     }
+    
 
     newOpen(ws){
         if (this.map.has(ws.protocol)){
