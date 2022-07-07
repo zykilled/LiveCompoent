@@ -16,7 +16,7 @@
     "koa-bodyparser": "^4.3.0",
     "log-master": "^1.0.0",
     "log4js": "^6.1.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-uuid": "^1.4.8",
     "puppeteer-core": "^2.1.1",
     "ws": "^7.2.1"
